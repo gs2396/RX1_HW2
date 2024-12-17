@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RX1_HW2</title>
+  </head>
+  <body>
+    <div id="app"></div>
+    <h1>Add Profile</h1>
+    <form id="addProfileForm">
+      <input id="idInput" type="number" placeholder="ID"/>
+      <input id="name" type="text" placeholder="Name"/>
+      <input id="age" type="number" placeholder="Age"/>
+      <button type="submit">Add Profile</button>
+    </form>
+
+    <h1>Remove Profile</h1>
+    <input type="number" placeholder="ID" id="removeId"/>
+    <button id="removeBtn">Remove Profile</button>
+
+    <ul id="profileList"></ul>
+
+    <div id="averageAge"></div>
+    <script type="module" src="/src/index.js"></script>
+  </body>
+</html>
